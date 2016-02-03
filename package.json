@@ -1,6 +1,6 @@
 {
   "name": "is-nil-x",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "isNil module.",
   "homepage": "https://github.com/Xotic750/is-nil-x",
   "author": {
@@ -32,7 +32,7 @@
     "validate.io-undefined": "^1.0.3"
   },
   "devDependencies": {
-    "es5-shim": "^4.5.0",
+    "es5-shim": "^4.5.2",
     "es6-shim": "^0.34.2",
     "json3": "^3.3.2",
     "jscs": "^2.9.0",
