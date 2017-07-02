@@ -23,7 +23,7 @@ alt="npm version" height="18">
 
 Checks if `value` is `null` or `undefined`.
 
-**Version**: 1.2.0  
+**Version**: 1.3.0  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
@@ -41,12 +41,9 @@ Checks if `value` is `null` or `undefined`.
 
 **Example**  
 ```js
-_.isNil(null);
-// => true
+var isNill = require('is-nil-x');
 
-_.isNil(void 0);
-// => true
-
-_.isNil(NaN);
-// => false
+isNil(null); // => true
+isNil(void 0); // => true
+isNil(NaN); // => false
 ```

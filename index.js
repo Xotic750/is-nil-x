@@ -22,41 +22,30 @@
  *
  * Checks if `value` is `null` or `undefined`.
  *
- * @version 1.2.0
+ * @version 1.3.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
  * @module is-nil-x
  */
 
-/* eslint strict: 1 */
+'use strict';
 
-/* global module */
+var isUndefined = require('validate.io-undefined');
+var isNull = require('lodash.isnull');
 
-;(function () { // eslint-disable-line no-extra-semi
-
-  'use strict';
-
-  var isUndefined = require('validate.io-undefined');
-  var isNull = require('lodash.isnull');
-
-  /**
-   * Checks if `value` is `null` or `undefined`.
-   *
-   * @param {*} value The value to check.
-   * @returns {boolean} Returns `true` if `value` is nullish, else `false`.
-   * @example
-   *
-   * _.isNil(null);
-   * // => true
-   *
-   * _.isNil(void 0);
-   * // => true
-   *
-   * _.isNil(NaN);
-   * // => false
-   */
-  module.exports = function isNil(value) {
-    return isNull(value) || isUndefined(value);
-  };
-}());
+/**
+ * Checks if `value` is `null` or `undefined`.
+ *
+ * @param {*} value - The value to check.
+ * @returns {boolean} Returns `true` if `value` is nullish, else `false`.
+ * @example
+ * var isNill = require('is-nil-x');
+ *
+ * isNil(null); // => true
+ * isNil(void 0); // => true
+ * isNil(NaN); // => false
+ */
+module.exports = function isNil(value) {
+  return isNull(value) || isUndefined(value);
+};
