@@ -1,28 +1,6 @@
 /**
- * @file
- * <a href="https://travis-ci.org/Xotic750/is-nil-x"
- * title="Travis status">
- * <img src="https://travis-ci.org/Xotic750/is-nil-x.svg?branch=master"
- * alt="Travis status" height="18">
- * </a>
- * <a href="https://david-dm.org/Xotic750/is-nil-x"
- * title="Dependency status">
- * <img src="https://david-dm.org/Xotic750/is-nil-x.svg"
- * alt="Dependency status" height="18"/>
- * </a>
- * <a href="https://david-dm.org/Xotic750/is-nil-x#info=devDependencies"
- * title="devDependency status">
- * <img src="https://david-dm.org/Xotic750/is-nil-x/dev-status.svg"
- * alt="devDependency status" height="18"/>
- * </a>
- * <a href="https://badge.fury.io/js/is-nil-x" title="npm version">
- * <img src="https://badge.fury.io/js/is-nil-x.svg"
- * alt="npm version" height="18">
- * </a>
- *
- * Checks if `value` is `null` or `undefined`.
- *
- * @version 1.3.0
+ * @file Checks if `value` is `null` or `undefined`.
+ * @version 1.4.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -40,7 +18,7 @@ var isNull = require('lodash.isnull');
  * @param {*} value - The value to check.
  * @returns {boolean} Returns `true` if `value` is nullish, else `false`.
  * @example
- * var isNill = require('is-nil-x');
+ * var isNil = require('is-nil-x');
  *
  * isNil(null); // => true
  * isNil(void 0); // => true
