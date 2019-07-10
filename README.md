@@ -21,29 +21,28 @@
 <a name="module_is-nil-x"></a>
 
 ## is-nil-x
+
 Checks if `value` is `null` or `undefined`.
 
-**Version**: 1.4.2  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
 <a name="exp_module_is-nil-x--module.exports"></a>
 
 ### `module.exports(value)` ⇒ <code>boolean</code> ⏏
+
 Checks if `value` is `null` or `undefined`.
 
 **Kind**: Exported function  
-**Returns**: <code>boolean</code> - Returns `true` if `value` is nullish, else `false`.  
+**Returns**: <code>boolean</code> - Returns `true` if `value` is nullish, else `false`.
 
-| Param | Type | Description |
-| --- | --- | --- |
+| Param | Type            | Description         |
+| ----- | --------------- | ------------------- |
 | value | <code>\*</code> | The value to check. |
 
-**Example**  
-```js
-var isNil = require('is-nil-x');
+**Example**
 
-isNil(null); // => true
-isNil(void 0); // => true
-isNil(NaN); // => false
+```js
+import isNil from 'is-nil-x';
+
+console.log(isNil(null)); // => true
+console.log(isNil(void 0)); // => true
+console.log(isNil(NaN)); // => false
 ```
