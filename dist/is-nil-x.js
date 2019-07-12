@@ -1,13 +1,14 @@
 /*!
 {
+  "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-present",
-  "date": "2019-07-10T12:31:27.126Z",
+  "date": "2019-07-12T12:21:26.237Z",
   "describe": "",
   "description": "Checks if `value` is `null` or `undefined`.",
   "file": "is-nil-x.js",
-  "hash": "a36ff79d704293015b74",
+  "hash": "444006902ff4284b2fe2",
   "license": "MIT",
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -124,16 +125,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = isNil;
-
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isNil; });
 /**
  * Checks if `value` is `null` or `undefined`.
  *
@@ -144,6 +140,8 @@ function isNil(value) {
   /* eslint-disable-next-line lodash/prefer-is-nil */
   return value === null || typeof value === 'undefined';
 }
+
+
 
 /***/ })
 /******/ ]);
