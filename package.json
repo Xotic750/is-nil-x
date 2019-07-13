@@ -1,6 +1,6 @@
 {
   "name": "is-nil-x",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Checks if `value` is `null` or `undefined`.",
   "homepage": "https://github.com/Xotic750/is-nil-x",
   "author": {
@@ -121,7 +121,6 @@
     "npm": "6.4.1"
   },
   "browserslist": [
-    "> 1%",
-    "Explorer >= 9"
+    "> 1%"
   ]
 }
