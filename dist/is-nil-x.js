@@ -2,11 +2,11 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-present",
-  "date": "2019-07-16T20:54:31.241Z",
+  "date": "2019-07-17T12:57:33.644Z",
   "describe": "",
   "description": "Checks if `value` is `null` or `undefined`.",
   "file": "is-nil-x.js",
-  "hash": "444006902ff4284b2fe2",
+  "hash": "e8f8e5d8c6aec6ca5db5",
   "license": "MIT",
   "version": "2.0.9"
 }
@@ -129,17 +129,18 @@ return /******/ (function(modules) { // webpackBootstrap
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isNil; });
 /**
  * Checks if `value` is `null` or `undefined`.
  *
  * @param {*} [value] - The value to check.
  * @returns {boolean} Returns `true` if `value` is nullish, else `false`.
  */
-function isNil(value) {
+var isNil = function isNil(value) {
   /* eslint-disable-next-line lodash/prefer-is-nil */
   return value === null || typeof value === 'undefined';
-}
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (isNil);
 
 
 
