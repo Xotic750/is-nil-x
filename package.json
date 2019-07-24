@@ -1,6 +1,6 @@
 {
   "name": "is-nil-x",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "description": "Checks if `value` is `null` or `undefined`.",
   "homepage": "https://github.com/Xotic750/is-nil-x",
   "author": {
@@ -21,6 +21,7 @@
   ],
   "module": "dist/is-nil-x.esm.js",
   "main": "dist/is-nil-x.js",
+  "jsdelivr": "dist/is-nil-x.min.js",
   "scripts": {
     "build:esm": "mkdirp dist && babel -s true --env-name esm src/is-nil-x.js -o dist/is-nil-x.esm.js",
     "build:base": "webpack --bail --progress --profile --colors",
