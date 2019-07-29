@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-present",
-  "date": "2019-07-29T18:32:43.018Z",
+  "date": "2019-07-29T21:32:35.076Z",
   "describe": "",
   "description": "Checks if `value` is `null` or `undefined`.",
   "file": "is-nil-x.js",
