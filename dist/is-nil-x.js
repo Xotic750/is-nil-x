@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-present",
-  "date": "2019-08-14T13:32:40.239Z",
+  "date": "2019-08-14T14:24:39.297Z",
   "describe": "",
   "description": "Checks if `value` is `null` or `undefined`.",
   "file": "is-nil-x.js",
   "hash": "ad6505e6fd7719938479",
   "license": "MIT",
-  "version": "2.0.26"
+  "version": "2.1.0"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
